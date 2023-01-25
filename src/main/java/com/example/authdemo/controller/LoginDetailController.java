@@ -13,8 +13,7 @@ public class LoginDetailController {
     @Autowired
     LoginConfig  config;
 
-    String authURl="https://www.facebook.com/v12.0/dialog/oauth";
-    String login="https://www.facebook.com/login";
+
 
     @GetMapping("/logindetail")
     public LoginDetails loginDetails(){

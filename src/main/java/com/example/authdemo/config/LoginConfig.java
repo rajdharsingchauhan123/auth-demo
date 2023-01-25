@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableMBeanExport;
 
 @Configuration
-@ConfigurationProperties("auth-demo")
+@ConfigurationProperties("authdemo")
 @Setter
 @Getter
 public class LoginConfig {
